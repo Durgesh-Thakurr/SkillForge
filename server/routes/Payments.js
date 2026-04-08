@@ -6,7 +6,7 @@ const {
   verifyPayment,
   sendPaymentSuccessEmail,
   verifySignature,
-} = require("../controllers/payments")
+} = require("../controllers/Payments")
 
 const { auth, isStudent } = require("../middlewares/auth")
 
