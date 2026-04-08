@@ -26,6 +26,8 @@ app.use(
 		origin: [
 			"http://localhost:3000",
 			"https://skillforge-frontend-delta.vercel.app",
+			"https://skillforge-frontend-47kou57qa-durgesh-thakurs-projects.vercel.app",
+			"https://skillforge-frontend-git-main-durgesh-thakurs-projects.vercel.app",
 		],
 		credentials: true,
 	})
