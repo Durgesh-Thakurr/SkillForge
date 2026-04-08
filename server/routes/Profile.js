@@ -8,7 +8,7 @@ const {
   updateDisplayPicture,
   getEnrolledCourses,
   getInstructorData, // ✅ add karo
-} = require("../controllers/profile")
+} = require("../controllers/Profile")
 router.delete("/deleteProfile", auth, deleteAccount)
 router.put("/updateProfile", auth, updateProfile)
 router.get("/getUserDetails", auth, getAllUserDetails)
